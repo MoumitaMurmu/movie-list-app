@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap');
+.App {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  height: 100vh;
+  
+}
+
+.table-head{
+  width: 60%;
+  background-color: #dddddd;
+  height: 100px;
+  text-align: left;
+  position: relative;
+  left: 200px;
+  padding: 5px;
+  border-radius: 3px;
+}
+.table-head button:hover{
+  background-color: #928b8b;
+}
+h2{
+  
+  margin-left: 20px;
+}
+.genre-heading{
+  /* margin-top: 20px; */
+  margin-top: 20px;
+  text-align: left;
+}
+
+.genre-button{
+  
+ 
+ display: flex;
+
+  justify-content: space-around; 
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+button{
+  padding: 5px 5px;
+  background-color: #beb0b0;
+  border: none;
+ border-radius: 3px;
+ 
+}
+table{
+  border: 1px solid #dddddd;
+  width: 60.8%;
+  border-collapse: collapse;
+  position: relative;
+  left: 200px;
+  top: 20px;
+  border-radius: 10px;
+  
+}
+
+th,td{
+  border: 1px solid #dfcece;
+  text-align: left;
+  padding: 10px;
+ 
+}
+table tr:hover{
+  background-color: #dddddd;
+}
+thead{
+  background-color: #dddddd;
+ 
+}
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+  .table-head {
+    width: 100%;
+    left: 0;
+  }
+  table {
+    width: 100%;
+    left: 0;
+  }
+}
+
+/* Medium screens */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .table-head {
+    width: 80%;
+    left: 10%;
+    height: 130px;
+   
+  }
+  
+  table {
+    width: 80.8%;
+    left: 10%;
+  }
+}
+
+/* Large screens */
+@media only screen and (min-width: 1025px) {
+  .table-head {
+    width: 60%;
+    left: 20%;
+  }
+  
+  table {
+    width: 60.8%;
+    left: 20%;
+  }
+}
+/* @media only screen and (max-width: 720px) {
+  .drama {
+    order: -1;
+  }
+  .animation {
+    order: 1;
+  }
+} */
+
+
